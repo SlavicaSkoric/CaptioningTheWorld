@@ -1,0 +1,93 @@
+html { 
+	background: url(../photos_africa/tunisia/DSC01304landing.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.navbar {
+	background-color: #0a0f15;		
+	font-family: 'El Messiri', sans-serif;
+	font-size: 120%;
+}
+
+.content, .contentIndex1 {
+	min-height: calc(100vh - 70px);
+ 	background: url(../photos_africa/tunisia/DSC01304landing.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	font-family: 'El Messiri', sans-serif;
+	font-size: 140%;
+	font-weight: bold;
+}
+
+iframe {
+	width: 95%;
+	border-width: 0%;
+}
+
+.footer {
+	padding: 1%;
+ 	height: 55px;
+ 	background-color: #0a0f15;
+ 	color: #ffffff; 			
+	font-family: 'El Messiri', sans-serif;
+	font-size: 120%;
+}
+
+.active {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.contentIndex1 img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.captionMe {
+	visibility: hidden;
+}
+
+/* Responsive Image Grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-left: 1%;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 100%;
+  max-width: 100%;
+  padding: 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  vertical-align: middle;
+  width: 95%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+/* Responsive layout - makes a two column-layout */
+@media (min-width: 576px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* Responsive layout - makes a three column-layout */
+@media (min-width: 992px) {
+  .column {
+    flex: 33%;
+    max-width: 33%;
+  }
+}
