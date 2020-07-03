@@ -1,0 +1,2 @@
+# CaptioningTheWorld
+Exploring the world, one caption at a time. As a tour guide, I have always wanted to have a place on the W3 where I could organize my photos and other snippets from my travels from all around the world. This is it! Feel free to browse, check out the code and give any suggestions as to how it could be improved. It's a work in progress. Thank you for stopping by! This page was created from scratch, using HTML5, CSS3, Javascript, Bootstrap v4.5.0, jQuery v3.5.1, Popper, Google Fonts, and Font Awesome.
