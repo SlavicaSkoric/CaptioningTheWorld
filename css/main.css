@@ -30,8 +30,9 @@ iframe {
 }
 
 .footer {
+	margin: 0%;
 	padding: 1%;
- 	height: 55px;
+ 	height: 65px;
  	background-color: #0a0f15;
  	color: #ffffff; 			
 	font-family: 'El Messiri', sans-serif;
