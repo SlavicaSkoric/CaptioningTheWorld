@@ -1,9 +1,5 @@
 html { 
-	background: url(../photos_africa/tunisia/DSC01304landing.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background-color: #ffffff;
 }
 
 .navbar {
@@ -14,12 +10,7 @@ html {
 
 .content, .contentIndex1 {
 	min-height: calc(100vh - 70px);
- 	background: url(../photos_africa/tunisia/DSC01304landing.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;	
-	font-family: 'El Messiri', sans-serif;
+ 	font-family: 'El Messiri', sans-serif;
 	font-size: 140%;
 	font-weight: bold;
 }
@@ -32,6 +23,7 @@ iframe {
 .footer {
 	margin: 0%;
 	padding-left: 1%;
+	padding-top: 1%;
  	height: 65px;
  	background-color: #0a0f15;
  	color: #ffffff; 			
